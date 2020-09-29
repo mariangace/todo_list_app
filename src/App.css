@@ -1,4 +1,51 @@
-.App {
+.app {
+  text-align: center;
+  background-image: url("/images/background.jpg");
+}
+
+.app > h1 {
+  margin: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+.logo img {
+  width: 40px;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+.form__div {
+  display: flex;
+  background: white;
+  opacity: 0.9;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+  min-height: 30px;
+}
+
+.form__div form {
+  display: flex;
+  width: 100%;
+}
+
+.form__div input {
+  width: 50%;
+  height: 20px;
+  margin: 15px;
+}
+.form__div button {
+  margin: 15px;
+}
+
+.todos__content {
+  display: flex;
+  justify-content: center;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +82,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
